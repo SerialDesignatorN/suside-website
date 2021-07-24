@@ -1,0 +1,82 @@
+.logo {
+  padding: 17px;
+}
+#wrapper {
+
+  padding: 2px;
+}
+.head, .heading {
+  display: inline-block;
+  font-family: Gotham;
+  font-weight: normal;
+  vertical-align: middle;
+  text-align: left;
+  color: white;
+}
+.download {
+  background-color: rgb(153, 50, 204);
+  border: none;
+  font-family: Gotham;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  font-size: 13pt;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+.download:hover {
+  background-color: rgb(184, 84, 235);
+  border: none;
+  font-family: Gotham;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  font-size: 13pt;
+  color: white;
+  border-radius: 15px;
+}
+b {
+  font-family: Gotham-bold;
+}
+big {
+  text-align: center;
+  font-size: 44pt;
+}
+body {
+    font-family: Gotham;
+    background: url(asset/bg.png) no-repeat;
+}
+.context {
+  margin-top: 30%;
+  text-align: center;
+}
+.features {
+  border-color: black;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  overflow-wrap: break-word;
+  border: 5px solid black;
+  padding: 1%;
+  display: inline;
+  margin-left: 2%;
+}
+.sub-features {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 2%;
+}
+h3 {
+  font-family: Gotham-bold;
+}
+@font-face {
+	font-family: Gotham;
+	src: url("font/GothamPro-Light.woff") format("woff");
+  font-weight: normal;
+}
+@font-face {
+  font-family: Gotham-bold;
+  src: url("font/GothamPro-Bold.woff") format("woff");
+  font-weight: bold;
+}
