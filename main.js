@@ -35,8 +35,8 @@ btn_download.onclick = function() {
         window.location.href = "https://github.com/zeankundev/suside/releases/download/2.3.2/Suside.Editor_Installer_2.3.2_linux_x86_64.AppImage"
     }
     else if (platform == "mac") {
-        window.open('https://bit.ly/2VHhZ4l', '_blank')
-        btn_download.innerHTML = '<i class="far fa-grin-squirt"></i> BAHAHAHA! U HAVE BEEN RICKROLLED!!! ULULULLULULULULU!!!!!'
+        window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank')
+        btn_download.innerHTML = '<i class="far fa-grin-tongue-squint"></i> BAHAHAHA! U HAVE BEEN RICKROLLED!!! ULULULLULULULULU!!!!!'
     }
     else if (platform == "android") {
         window.location.href = "https://bit.ly/2VHhZ4I"
