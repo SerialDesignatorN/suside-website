@@ -29,10 +29,10 @@ else if (navigator.userAgent.indexOf("like Mac") != -1) {
 
 btn_download.onclick = function() {
     if (platform == "win") {
-        window.location.href = "https://github.com/zeankundev/suside/releases/download/2.3.2/Suside.Editor_Installer_2.3.2_win.exe"
+        window.location.href = "https://github.com/zeankundev/suside/releases/download/2.3.3/Suside_Installer_2.3.3_win.exe"
     }
     else if (platform == "linux") {
-        window.location.href = "https://github.com/zeankundev/suside/releases/download/2.3.2/Suside.Editor_Installer_2.3.2_linux_x86_64.AppImage"
+        window.location.href = "https://github.com/zeankundev/suside/releases/download/2.3.3/Suside_Installer_2.3.3_linux_x86_64.AppImage"
     }
     else if (platform == "mac") {
         window.location.href = "https://bit.ly/2VHhZ4I"

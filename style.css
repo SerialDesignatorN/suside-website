@@ -1,6 +1,16 @@
-*{
+@font-face {
+	font-family: gsans;
+  font-weight: normal;
+  src: url('asset/fonts/googlesanstext_reg.woff2')
+}
+@font-face {
+	font-family: gsans;
+  font-weight: bold;
+  src: url('asset/fonts/googlesanstext_bold.woff2')
+}
+* {
     margin: 0;
-    font-family: GothamPro;
+    font-family: gsans;
 }
 
 header {
