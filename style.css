@@ -12,6 +12,18 @@
     margin: 0;
     font-family: gsans;
 }
+.alert {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    background-color: orange;
+    text-align: center;
+    text-decoration: none;
+}
+.alert a {
+    color: white;
+    text-align: center;
+}
 
 header {
     background-color: #0072b0;
